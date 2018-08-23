@@ -5,9 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/abhay/ServletImplementingServlet.java" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9486f47b-bbdc-4b66-bf19-75da8f78bb01" name="Default Changelist" comment="">
+    <list default="true" id="9486f47b-bbdc-4b66-bf19-75da8f78bb01" name="Default Changelist" comment="Adds vcs file of IDEA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +47,7 @@
           <entry key="dummy" value="26" />
           <entry key="html" value="602" />
           <entry key="java" value="1183" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="52" />
           <entry key="xml" value="570" />
         </counts>
       </usages-collector>
@@ -56,7 +55,7 @@
         <counts>
           <entry key="HTML" value="602" />
           <entry key="JAVA" value="1183" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="78" />
           <entry key="XML" value="570" />
         </counts>
       </usages-collector>
@@ -167,7 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534950849551" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Learn/Projects/eclipse-workspace/web-student-tracker" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -209,10 +208,25 @@
       <option name="presentableId" value="Default" />
       <updated>1534921110575</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adds bootstrap">
+      <created>1534991552862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534991552862</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adds vcs file of IDEA">
+      <created>1534991750030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534991750030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -273,6 +287,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds bootstrap" />
+    <MESSAGE value="Adds vcs file of IDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds vcs file of IDEA" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com.abhay/FirstServlet.java" />
