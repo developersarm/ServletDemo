@@ -1,4 +1,8 @@
-<web-app>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
 
     <display-name>Servlet Demo</display-name>
     <description>
@@ -8,12 +12,12 @@
     <servlet>
         <servlet-name>ServletImplementingServlet</servlet-name>
         <servlet-class>com.abhay.ServletImplementingServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>ServletImplementingServlet</servlet-name>
         <url-pattern>/one</url-pattern>
-        <load-on-startup>0</load-on-startup>
     </servlet-mapping>
 
     <servlet>
@@ -67,6 +71,125 @@
         <url-pattern>/six</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RedirectExample</servlet-name>
+        <servlet-class>com.abhay.redirect.Demo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RedirectExample</servlet-name>
+        <url-pattern>/seven</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <servlet-class>com.abhay.servletconfig.Demo</servlet-class>
+
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>system</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>oracle</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <url-pattern>/eight</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo</servlet-name>
+        <servlet-class>com.abhay.servletContext.Demo</servlet-class>
+    </servlet>
+
+    <context-param>
+        <param-name>dname</param-name>
+        <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>system</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>oracle</param-value>
+    </context-param>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo</servlet-name>
+        <url-pattern>/nine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>com.abhay.attribute.DemoServlet1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/ten</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>s2</servlet-name>
+        <servlet-class>com.abhay.attribute.DemoServlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s2</servlet-name>
+        <url-pattern>/eleven</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listener1</servlet-name>
+        <servlet-class>com.abhay.events.httpevent.Demo</servlet-class>
+    </servlet>
+
+    <listener>
+        <listener-class>com.abhay.events.httpevent.CountUserListener</listener-class>
+    </listener>
+
+    <servlet-mapping>
+        <servlet-name>listener1</servlet-name>
+        <url-pattern>/twelve</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listener2</servlet-name>
+        <servlet-class>com.abhay.events.httpevent.logout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listener2</servlet-name>
+        <url-pattern>/thirteen</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getCookies</servlet-name>
+        <servlet-class>com.abhay.cookie.CreateCookies</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>getCookies</servlet-name>
+        <url-pattern>/fourteen</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>retrieveCookies</servlet-name>
+        <servlet-class>com.abhay.cookie.RetrieveCookies</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>retrieveCookies</servlet-name>
+        <url-pattern>/fifteen</url-pattern>
+    </servlet-mapping>
+    
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
