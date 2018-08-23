@@ -47,6 +47,26 @@
         <url-pattern>/four</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>LoginDispatcher</servlet-name>
+        <servlet-class>com.abhay.dispatcher.Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginDispatcher</servlet-name>
+        <url-pattern>/five</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WelcomeDispatcher</servlet-name>
+        <servlet-class>com.abhay.dispatcher.WelcomeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WelcomeDispatcher</servlet-name>
+        <url-pattern>/six</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
